@@ -10,4 +10,8 @@
 
 @implementation Strawberry
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Strawberry with taste: %@", self.taste];
+}
+
 @end
