@@ -1,8 +1,0 @@
-ALWAYS_SEARCH_USER_PATHS = YES
-OTHER_LDFLAGS = -ObjC -lGoogleAnalytics -lsqlite3.0 -framework CFNetwork -framework CoreData -framework CoreLocation -framework SystemConfiguration -weak_framework Accounts -weak_framework AdSupport -weak_framework Social
-HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
-PODS_ROOT = ${SRCROOT}/Pods
-PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Facebook-iOS-SDK" "${PODS_ROOT}/BuildHeaders/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/BuildHeaders/GoogleAnalytics-iOS-SDK"
-PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK"
-PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/GoogleAnalytics-iOS-SDK/GoogleAnalyticsiOS_2.0beta3/Library"
